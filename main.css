@@ -1,0 +1,67 @@
+*{
+    padding:0%;
+    margin: 0%;
+
+}
+img{
+    width: 400px;
+    background-image: url(images/favicon-32x32.png);
+
+}
+.main{
+    font-family: 'Inter', sans-serif;
+
+    Font-size: 15px;
+    
+    display: flex;
+    height: 100vh;
+    background: hsl(233, 47%, 7%);
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 800px;
+    overflow: hidden;
+    height: 328px;
+    display: flex;
+    border-radius: 10px;
+    background: hsl(244, 38%, 16%);
+    color: azure;
+}
+h1{
+    font-size: 26px;
+     color:hsl(0, 0%, 100%);
+     font-weight: 700;
+     padding-bottom: 30px;
+}
+p{
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.hadra{
+    height: 250px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    width: 400px;
+   
+}.buttom{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    padding-top: 65px;
+    
+    
+}
+h5{
+    font-size: 16px;
+}
+.img{
+    width: 500px;
+   background-size: cover;
+    background-position: center;
+    background: linear-gradient(hsl(277, 64%, 61%,0.5),hsl(277, 64%, 61%,0.5)),url(images/image-header-desktop.jpg);
+}
